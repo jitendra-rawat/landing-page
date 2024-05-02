@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent absolute top-0 left-0 w-full z-50">
-      <div className="max-w-sm lg:max-w-7xl mx-auto container ">
+      <div className="max-w-sm md:max-w-xl  lg:max-w-6xl xl:max-w-7xl mx-auto container ">
         <div className="flex justify-between items-center py-4">
           {/* left section */}
           <div className="">
