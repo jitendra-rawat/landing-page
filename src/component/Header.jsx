@@ -48,13 +48,13 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-center bg-cover bg-no-repeat  h-screen pt-40  " style={{backgroundImage: "url('https://cdn.pixabay.com/photo/2022/12/11/20/42/artificial-intelligence-7649721_1280.jpg')"}}>
+    <header className="bg-center bg-cover bg-no-repeat  h-screen pt-40  " style={{backgroundImage: "url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148872043.jpg?size=626&ext=jpg&ga=GA1.1.369241667.1712923266&semt=ais')"}}>
 
       <div className='max-w-sm lg:max-w-5xl mx-auto container  '>
 
-        <h2 className="text-4xl lg:text-7xl text-white mb-4 font-ethnocentric">San Francisco</h2>
-        <h2 className="text-4xl lg:text-7xl text-white mb-4 ">AI Conference!</h2>
-        <p className='text-white text-lg lg:text-2xl mb-4 font-mazzard'>Join us for an extraordinary event at the forefront of <br /> artificial intelligence innovation.</p>
+        <h2 className="text-4xl lg:text-7xl text-white mb-4 font-ethnocentric font-bold">San Francisco</h2>
+        <h2 className="text-4xl lg:text-7xl text-white mb-4 font-bold ">AI Conference!</h2>
+        <p className='text-white text-lg lg:text-2xl mb-4 font-poppins'>Join us for an extraordinary event at the forefront of <br /> artificial intelligence innovation.</p>
 
         <div className="flex gap-3 items-center mb-8">
           <div className="flex">
@@ -84,14 +84,14 @@ const Header = () => {
 
         <button className='bg-gray-200 rounded-full text-sm px-8 py-4  font-mazzard flex gap-2 items-center'> <MdArrowOutward  size={24} color='purple'/>  Buy Tickets</button>
 
-        <button className='bg-[#8D36DF] text-white rounded-full text-sm px-8 py-4 font-mazzard flex gap-2 items-center'> <MdArrowOutward  size={24} color='white'/> Read More</button>
+        <button className='bg-[#8D36DF]  text-white rounded-full text-sm px-8 py-4 font-mazzard flex gap-2 items-center'> <MdArrowOutward  size={24} color='white'/> Read More</button>
 
        </div>
 
 
        <div className='bg-gray-200 px-2 gap-2 rounded-2xl lg:px-8 py-4 lg:rounded-full flex flex-wrap items-center justify-between '>
         <p className='text-2xl font-mazzard font-bold'>Join us at 7th San Francisco AI Conference! July 5-9 2018.</p>
-        <button className='bg-gradient-to-r from-[#CB00FF] to-l-[#5603B4] px-8 py-4 text-white rounded-full font-mazzard flex items-center gap-1'>      <MdArrowOutward size={24} color="white" /> Register Now</button>
+        <button className='bg-gradient-to-r from-[#5603B4] to-l-[#CB00FF] px-8 py-4 text-white rounded-full font-mazzard flex items-center gap-1'>      <MdArrowOutward size={24} color="white" /> Register Now</button>
 
        </div>
 

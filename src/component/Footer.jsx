@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="max-w-sm lg:max-w-5xl mx-auto container flex flex-wrap space-x-4 justify-between py-2">
 
         <p className='text-[14px] text-gray-400 font-mazzard'>© 2023 San Francisco AI Conference LLC. All Rights Reserved.</p>
-        <p className='text-[14px] text-gray-400 font-mazzard'>Made by  Savior</p>
+        <p className='text-[14px] text-gray-400 font-mazzard'>Made w/ love by  Savior</p>
         <p className='text-[14px] text-gray-400 font-mazzard'>Terms of Use  |   Proposal Terms</p>
 
       </div>

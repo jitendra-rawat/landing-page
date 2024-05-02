@@ -29,19 +29,20 @@ const Ticket = () => {
     ];
 
     return (
-        <section className='max-w-sm lg:max-w-5xl mx-auto container py-20'>
+        <section className='max-w-sm lg:max-w-5xl mx-auto container py-24'>
+
             <div className='flex flex-wrap justify-between items-center mb-2'>
                 <div>
-                    <h2 className='text-[60px] font-bold font-mazzard'>CHOOSE YOUR <span className='text-[#8D36DF]'>TICKET</span> </h2>
+                    <h2 className='text-2xl lg:text-[60px] font-bold font-mazzard mb-4'>CHOOSE YOUR <span className='text-[#8D36DF]'>TICKET</span> </h2>
                 </div>
                 <div>
-                    <button className='bg-gray-200 px-8 py-2 text-black font-mazzard flex items-center gap-1'> <MdArrowOutward size={24}/> VIEW ALL TICKETS</button>
+                    <button className='bg-gray-200 px-8 py-2 text-black font-mazzard flex items-center gap-1'> <MdArrowOutward color='#8D36DF' size={24}/> VIEW ALL TICKETS</button>
                 </div>
             </div>
             <div className='flex items-center  mb-4'>
                 <p className='text-[14px] flex-1  text-[#8D36DF] font-mazzard '>PRICING PLANS</p>
                 
-      <div className="w-[900px]  mx-auto container   h-[0.5px] bg-gray-900"></div>
+      <div className="lg:w-[900px]  mx-auto container   h-[0.5px] bg-gray-900"></div>
             </div>
             <div>
                 <p className='text-[18px] mb-16 font-mazzard'>Attending such an event can expose you to different ways of thinking about economic issues <br /> and help you broaden your understanding of the field.</p>
@@ -76,7 +77,7 @@ const Card = ({ type, price, title, description, buttonText, isPurple }) => {
     const iconColor = isPurple ? "text-white":"text-black"
 
     return (
-        <div className={`w-[366px] h-[450px] border border-black overflow-hidden md:max-w-2xl ${cardColor}`}>
+        <div className={`lg:w-[366px] h-[450px] border border-black overflow-hidden md:max-w-2xl ${cardColor}`}>
             <div className="p-8">
             <div className={`uppercase tracking-wide text-sm text-[#727271] font-semibold py-4 ${typeColor} flex gap-2 items-center`}><FaStarOfLife color='#8D36DF' /> {type}</div>
 

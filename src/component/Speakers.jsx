@@ -11,20 +11,18 @@ const Speakers = () => {
   return (
     <>
     
-    <section className='bg-purple-700 py-20' >
-
-
-    
-        <div className='max-w-5xl mx-auto container'>
+    <section id="speakers" className='bg-gradient-to-r from-[#5603B4] to-[#CB00FF] relative'>
+    <div className='bg-cover bg-no-repeat bg-center' style={{backgroundImage: "url('../src/assets/back.png')"}}>
+        <div className='max-w-5xl mx-auto container py-20'>
             <p className='mb-4 text-center text-white text-lg'>Leaders and experts</p>
-            <h2 className='mb-4 text-center text-white text-4xl font-semibold font-mazzard'>FEATURED <span className='font-bold'>SPEAKERS</span> </h2>
+            <h2 className='mb-4 text-center text-white text-4xl  font-mazzard'>FEATURED <span className='font-bold'>SPEAKERS</span> </h2>
             <p className='text-white max-w-2xl mx-auto container text-center text-lg font-mazzard'>Anticipate a dynamic assembly of visionary thinkers and seasoned specialists, who will generously impart their wisdom, perspectives, and prognostications in the field.</p>
-
-
-
         </div>
+    </div>
+  
+  
+</section>
 
-    </section>
 
 
 <section className='py-20 flex flex-wrap gap-8 justify-between items-center max-w-5xl mx-auto container'>

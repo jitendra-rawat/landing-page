@@ -6,10 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        mazzard: ['Mazzard', 'sans-serif'],
-        ethnocentric:['Ethnocentric','sans-serif']
-      },
+ 
 
     },
   },

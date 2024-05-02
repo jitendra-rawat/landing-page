@@ -9,7 +9,7 @@ const Welcome = () => {
     {/* left section */}
 
     <div className='lg:w-1/2'>
-        <p className='text-[#C7C0B6] text-lg  font-bold mb-4'>Welcome to</p>
+        <p className='text-[#C7C0B6] text-lg  font-bold mb-2'>Welcome to</p>
         <h4 className='text-[60px] font-bold text-2xl leading-[60px] mb-8 font-mazzard'>San Francisco <br /> <span className='text-[#8D36DF]'> AI Conference! </span></h4>
        
         <img className='object-cover w-[450px]' src={conf} alt="" />

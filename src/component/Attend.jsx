@@ -33,7 +33,7 @@ const Attend = () => {
             <div className='max-w-sm lg:max-w-5xl mx-auto container'>
                 <div>
                     <p className='lg:text-center font-ethnocentric text-[#727271] text-[18px] mb-4 '>What we offer</p>
-                    <p className='lg:text-center text-white lg:text-[60px] text-2xl font-mazzard lg:leading-10 mb-8' >Why Attend the San Francisco</p>
+                    <p className='lg:text-center text-white lg:text-[60px] text-2xl leading-1 font-mazzard lg:leading-10 lg:mb-8' >Why Attend the San Francisco</p>
                     <p className='lg:text-center text-[#8D36DF] lg:text-[60px] text-2xl mb-16 font-mazzard lg:leading-10'>AI Conference?</p>
                 </div>
 

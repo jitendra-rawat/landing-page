@@ -4,7 +4,11 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Event = () => {
   return (
-   <section className=' py-20 bg-purple-500' style={{backgroundImage: "url('../src/assets/event2.png')"}}>
+
+  <div className='bg-gradient-to-r from-[#5603B4] to-[#CB00FF]'>
+
+ 
+   <section className=' py-20 ' style={{backgroundImage: "url('../src/assets/event2.png')"}}>
 
     <div className='max-w-sm lg:max-w-5xl mx-auto container '>
     <h2 className='mb-8  text-center text-2xl lg:text-[60px] lg:leading-[60px]  text-white font-mazzard'>DON'T MISS OUT ON <br />
@@ -20,6 +24,9 @@ const Event = () => {
 
 
    </section>
+
+
+   </div>
   )
 }
 
